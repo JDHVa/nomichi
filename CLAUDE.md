@@ -8,6 +8,7 @@ Robot terrestre autónomo que patrulla cultivos y detecta plagas, enfermedades y
 - **Ejecutar todo dentro del `venv`** del proyecto: `./venv/Scripts/python.exe ...`
 - La API key de Roboflow va en `.env` (no versionado). La key anterior quedó expuesta: **regenerarla** en Roboflow.
 - `venv/`, `.env` y `datasets/` están en `.gitignore` y no se suben.
+- **Roles de modelos:** el orquestador es **Opus 5.5** (planea, decide y revisa); el código lo escribe **Sonnet 5.5 con effort bajo** (delegar la escritura de código a un subagente con `model: sonnet`, `effort: low`).
 
 ## Decisiones de arquitectura de IA
 

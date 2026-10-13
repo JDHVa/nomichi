@@ -13,7 +13,11 @@ datasets/
 runs/
 _docx.txt
 _plagas.txt
+_enf2.txt
 *.log
+node_modules/
+package.json
+package-lock.json
 
 !modelos_entrenados/
 !modelos_entrenados/*.pt
